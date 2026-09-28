@@ -2,6 +2,8 @@
 
 This is a static academic homepage, published at <https://jiachenshi999.github.io/> from the public [GitHub repository](https://github.com/jiachenshi999/jiachenshi999.github.io). It needs no paid hosting, database, package install, or build step.
 
+For the optional free Cloudflare Pages deployment and shared `.com` subdomain setup, see [CLOUDFLARE_DEPLOY.md](CLOUDFLARE_DEPLOY.md). Cloudflare deployment is pending account setup; the existing GitHub Pages site remains live.
+
 ## Edit the site
 
 - **Biography, appointments, projects, and paper text:** edit `index.html`. Each section has an `id` such as `research` or `publications`.
