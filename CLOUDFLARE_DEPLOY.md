@@ -1,10 +1,12 @@
 # Cloudflare Pages 免费部署计划
 
-本网站已发布在 GitHub 公共仓库 `jiachenshi999/jiachenshi999.github.io`。Cloudflare Pages 可以直接连接此仓库；以后更新 `main` 分支时，两个站点可同时更新。Cloudflare Pages 免费提供 `*.pages.dev` 地址，但不提供免费的独立 `.com` 或 `.cn` 域名。
+本网站已发布在 GitHub 公共仓库 `jiachenshi999/jiachenshi999.github.io`，并于 2026-09-29 通过 Cloudflare Pages 的 Git 集成部署到 <https://jiachenshi.pages.dev/>。项目名为 `jiachenshi`，生产分支为 `main`，框架为 None，构建命令留空，输出目录为 `.`。以后更新 `main` 分支时，两个站点可同时更新。Cloudflare Pages 免费提供 `*.pages.dev` 地址，但不提供免费的独立 `.com` 或 `.cn` 域名。
+
+当前待办：注册并验证 FreeDNS 账号，创建可用的共享 `.com` 子域名，再将它绑定到 Cloudflare Pages。
 
 ## 账号准备
 
-1. 由网站所有者注册并验证 [Cloudflare 账号](https://dash.cloudflare.com/sign-up)。账号和密码由本人保管。
+1. Cloudflare 账号已注册，Cloudflare Pages 项目已部署。账号和密码由网站所有者本人保管。
 2. 由网站所有者注册并验证 [FreeDNS 账号](https://freedns.afraid.org/signup/)。FreeDNS 需要验证码和邮箱验证。它可免费提供共享 `.com` 域名下的子域名，例如 `jiachenshi.mooo.com`；具体名称须以创建时的可用性为准。
 
 ## 部署到 Cloudflare Pages
