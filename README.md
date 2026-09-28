@@ -1,8 +1,8 @@
 # Jiachen Shi academic homepage
 
-This is a static academic homepage, published at <https://jiachenshi999.github.io/> from the public [GitHub repository](https://github.com/jiachenshi999/jiachenshi999.github.io). It needs no paid hosting, database, package install, or build step.
+This is a static academic homepage, published at <https://jiachenshi999.github.io/> and <https://jiachenshi.pages.dev/> from the public [GitHub repository](https://github.com/jiachenshi999/jiachenshi999.github.io). Both hosts use the `main` branch. The site needs no paid hosting, database, package install, or build step.
 
-For the optional free Cloudflare Pages deployment and shared `.com` subdomain setup, see [CLOUDFLARE_DEPLOY.md](CLOUDFLARE_DEPLOY.md). Cloudflare deployment is pending account setup; the existing GitHub Pages site remains live.
+For Cloudflare Pages deployment details and the pending shared `.com` subdomain setup, see [CLOUDFLARE_DEPLOY.md](CLOUDFLARE_DEPLOY.md).
 
 ## Edit the site
 
