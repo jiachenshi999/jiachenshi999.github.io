@@ -1,6 +1,6 @@
 # Jiachen Shi academic homepage
 
-This is a static academic homepage. It needs no paid hosting, database, package install, or build step. The public site can live at `https://jiachenshi999.github.io/` when this folder is published from the `jiachenshi999.github.io` repository on GitHub Pages.
+This is a static academic homepage, published at <https://jiachenshi999.github.io/> from the public [GitHub repository](https://github.com/jiachenshi999/jiachenshi999.github.io). It needs no paid hosting, database, package install, or build step.
 
 ## Edit the site
 
@@ -12,22 +12,17 @@ This is a static academic homepage. It needs no paid hosting, database, package 
 
 Open `index.html` directly to preview most changes, or run `python -m http.server 8000` in this folder and visit `http://localhost:8000/`. The site uses relative asset paths, so it also works from a GitHub project repository path.
 
-## Publish free with GitHub Pages
+## Publish updates
 
-1. Sign in to the GitHub account `jiachenshi999` and create a **public** repository named exactly `jiachenshi999.github.io`.
-2. Open PowerShell in this folder and run the commands below. GitHub may ask you to sign in. The source CV (`个人简历.docx`) and original photo are in `.gitignore`; the explicit `git add` list also keeps them out of the public repository.
+The GitHub repository is already live. Changes committed to its `main` branch appear on the public site automatically. You can edit a text file directly on GitHub, or ask Codex to update this folder and publish the corresponding files.
 
-   ```powershell
-   git init -b main
-   git add .gitignore .nojekyll README.md index.html styles.css script.js favicon.svg robots.txt sitemap.xml assets/jiachen-shi.jpg
-   git commit -m "Launch academic homepage"
-   git remote add origin https://github.com/jiachenshi999/jiachenshi999.github.io.git
-   git push -u origin main
-   ```
-3. In the repository, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then **main** and **/(root)**; save.
-4. After GitHub finishes publishing, check `https://jiachenshi999.github.io/`. Future pushes to `main` update the page automatically.
+For a Git-linked working copy on another computer, clone the repository:
 
-If that exact repository name is unavailable, a regular public repository also works. Its URL will be `https://jiachenshi999.github.io/REPOSITORY-NAME/`.
+```powershell
+git clone https://github.com/jiachenshi999/jiachenshi999.github.io.git
+```
+
+Make future edits inside that clone, then run `git add`, `git commit`, and `git push`. This original project folder is a source snapshot, not a Git checkout. If you edit here, copy only the website files into the clone before committing. The source CV (`个人简历.docx`) and original photo (`ETH+22-01-1037.jpg`) must stay out of the public repository; `.gitignore` lists both.
 
 ## Content notes
 
